@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #efefef;
+      font-family: sans-serif;
+      margin: 0px;
+    }
+    .row {
+      display: flex;
+    }
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 1000px;
+    }
+
+    /* p.color {
+      color: #2d3748;
+    } */
+
+    li {
+      list-style-type: none;
+      padding: 21px;
+    }
+
+    ul {
+      display: flex;
+      margin-bottom: -3px;
+      margin-top: -3px;
+    }
+
+    #header {
+      position: fixed;
+      display: flex;
+      background-color: #efefef;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2d3748;
+      font-size: 15px;
+      align-items: center;
+    }
+
+    .nav-bar a:hover {
+      color: #0175a2;
+    }
+
+    .nav-bar {
+      margin-left: 360px;
+    }
+    img {
+      animation: rotation 6s infinite linear;
+    }
+
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="header">
+          <div class="image">
+            <img src="../Images/RK.png" alt="logopic" height="50px" />
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="#" id="h">HOME</a></li>
+              <li><a href="#" id="h1">ABOUT ME</a></li>
+              <li><a href="#" id="h1">MY SKILLS</a></li>
+              <li><a href="#" id="h4">TIMELINE</a></li>
+              <li><a href="#contact" id="h5">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
